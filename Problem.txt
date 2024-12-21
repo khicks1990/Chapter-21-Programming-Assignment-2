@@ -1,0 +1,13 @@
+Extend the AVL tree class presented in this chapter by adding a method that takes a value, locates it in the AVL tree, and displays its level. Do this by extending the list of commands supported by the program to include commands of the form level value. For example, if the user types in "12" the program displays the level of a node containing 12. The program should display -1 if the user types a value not in the tree. If there is more than one instance of the value in the tree, the program displays the level of any one of them.
+
+Implement the level() method that starts on line 113 of Main.java.
+
+Note: You may want to full screen the GUI window for testing. You will need to use the add element command to add values to the tree for testing. Example
+
+add 1
+Will add the integer 1 to the tree
+
+add 5
+will add the integer 5 to the tree
+
+The remove() method from Chapter 21 Assignment 1 is not implemented here, but if you would like to use it, you may copy your code from Assignment 1.
